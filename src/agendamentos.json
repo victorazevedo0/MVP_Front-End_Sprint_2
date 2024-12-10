@@ -1,0 +1,25 @@
+{
+    "scheduling": [
+        {
+            "id": 1,
+            "nomePet": "Rex",
+            "data": "25/11/2024",
+            "hora": "11:00",
+            "tipoServico": "Banho"
+        },
+        {
+            "id": 2,
+            "nomePet": "Fifi",
+            "data": "28/11/2024",
+            "hora": "13:00",
+            "tipoServico": "Tosa"
+        },
+        {
+            "id": 3,
+            "nomePet": "Nilsinho",
+            "data": "30/11/2024",
+            "hora": "14:00",
+            "tipoServico": "Banho e Tosa"
+        }
+    ]
+}

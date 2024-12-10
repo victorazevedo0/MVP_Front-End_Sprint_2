@@ -1,0 +1,152 @@
+/* Estilo principal da página de agendamento */
+.schedule-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Garante que a página ocupe a altura total da viewport */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Fundo leve para contraste */
+}
+
+/* Título principal */
+.schedule-page h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Formulário */
+.schedule-page form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ajusta a largura para 100% */
+  max-width: 400px; /* Define largura máxima do formulário */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+}
+
+/* Labels dos campos */
+.schedule-page label {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Inputs e Select */
+.schedule-page input[type="text"],
+.schedule-page input[type="date"],
+.schedule-page input[type="time"],
+.schedule-page select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%; /* Ocupa toda a largura disponível */
+  box-sizing: border-box;
+}
+
+/* Botão principal */
+.schedule-page button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.schedule-page button:hover, .schedule-page .button:hover {
+  background-color: #0056b3;
+}
+
+/* Botão adicional (Voltar para a página principal) */
+.schedule-page .button {
+  margin-top: 15px;
+  font-size: 1rem;
+  background-color: #007bff; /* Cor secundária */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Rodapé */
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #f0f0f0;
+  font-size: 0.9rem;
+  color: #333;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Media Query para telas menores (como celulares) */
+@media (max-width: 768px) {
+  .schedule-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .schedule-page form {
+    width: 90%; /* Ajusta o formulário para ocupar 90% da largura da tela */
+    padding: 15px;
+  }
+
+  .schedule-page input[type="text"],
+  .schedule-page input[type="date"],
+  .schedule-page input[type="time"],
+  .schedule-page select {
+    font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+    padding: 8px; /* Diminui o padding */
+  }
+
+  .schedule-page button {
+    font-size: 1rem; /* Ajusta o tamanho da fonte do botão */
+    padding: 10px 15px; /* Diminui o padding */
+  }
+
+  footer {
+    position: relative; /* Ajusta o footer para não ficar fixo */
+  }
+}
+
+/* Media Query para telas muito pequenas (como celulares mais antigos) */
+@media (max-width: 480px) {
+  .schedule-page h1 {
+    font-size: 1.2rem;
+  }
+
+  .schedule-page form {
+    width: 100%; /* Faz o formulário ocupar 100% da largura */
+    padding: 10px;
+  }
+
+  .schedule-page input[type="text"],
+  .schedule-page input[type="date"],
+  .schedule-page input[type="time"],
+  .schedule-page select {
+    font-size: 0.8rem; /* Ajusta ainda mais o tamanho da fonte */
+    padding: 6px; /* Ajusta o padding */
+  }
+
+  .schedule-page button {
+    font-size: 1rem; /* Ajusta o tamanho da fonte do botão */
+    padding: 8px 12px; /* Ajusta o padding */
+  }
+}

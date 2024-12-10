@@ -1,0 +1,68 @@
+/* Define o layout da página */
+section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que a altura mínima seja 100% da viewport */
+}
+
+/* Estiliza a área de login */
+.login-page {
+  flex: 1; /* Faz com que essa área ocupe o espaço disponível */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente o formulário */
+  align-items: center;
+  padding: 20px;
+}
+
+.login-page h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px; /* Limita a largura máxima */
+}
+
+.login-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: darkblue;
+}
+
+/* Mensagem de erro */
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Estiliza o footer */
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}

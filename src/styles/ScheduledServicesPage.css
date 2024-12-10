@@ -1,0 +1,148 @@
+/* Container geral da página */
+.scheduled-service-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Altura mínima da página: 100% da viewport */
+  position: relative; /* Necessário para o posicionamento do botão de voltar */
+}
+
+/* Conteúdo principal */
+.content {
+  flex: 1; /* Garante que o conteúdo ocupe o espaço disponível */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Lista de agendamentos */
+.agendamentos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Estilos para os cartões de agendamento */
+.agendamento-card {
+  width: 300px; /* Largura fixada */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Título da página */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Botão */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.voltar-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.voltar-btn:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+  width: 100%;
+  margin-top: auto; /* Garante que o footer ficará no final da página */
+}
+
+/* Media Query para telas menores (como celulares) */
+@media (max-width: 768px) {
+  /* Título da página */
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Cartões de agendamento */
+  .agendamento-card {
+    width: 90%; /* Ajusta a largura para 90% da tela */
+    margin: 10px;
+    padding: 15px;
+  }
+
+  /* Botões */
+  .voltar-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    position: static; /* Torna a posição do botão estática no layout */
+    margin-top: 20px; /* Garante que o botão fique abaixo do título */
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem; /* Diminui o tamanho da fonte no footer */
+  }
+}
+
+/* Media Query para telas muito pequenas (como celulares antigos) */
+@media (max-width: 480px) {
+  /* Título da página */
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  /* Cartões de agendamento */
+  .agendamento-card {
+    width: 100%; /* Faz o cartão ocupar toda a largura da tela */
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  /* Botões */
+  .voltar-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    position: static; /* Torna a posição do botão estática no layout */
+    margin-top: 15px; /* Garante que o botão fique abaixo do título */
+  }
+
+  button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.7rem; /* Diminui ainda mais o tamanho da fonte no footer */
+  }
+}
