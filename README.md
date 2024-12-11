@@ -54,11 +54,17 @@ src/
 
 ## Instalar dependencias
 
-- npm install
+```
+$ npm install
+```
+Este comando instala as dependências/bibliotecas, descritas no arquivo `package.json`. Uma pasta chamada `node_modules` será criada.
 
 ## Rodar o projeto
 
-- npm start
+```
+$ npm start
+```
+
 - Acesse no navegador: http://localhost:3000
 
 ## ---------------------------------------------------------------------
