@@ -4,10 +4,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Garante que a página ocupe a altura total da viewport */
+  min-height: 100vh;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #f9f9f9; /* Fundo leve para contraste */
+  background-color: #f9f9f9;
 }
 
 /* Título principal */
@@ -22,12 +22,12 @@
 .schedule-page form {
   display: flex;
   flex-direction: column;
-  width: 100%; /* Ajusta a largura para 100% */
-  max-width: 400px; /* Define largura máxima do formulário */
+  width: 100%;
+  max-width: 400px;
   background: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Labels dos campos */
@@ -48,7 +48,7 @@
   font-size: 1rem;
   margin-top: 5px;
   margin-bottom: 15px;
-  width: 100%; /* Ocupa toda a largura disponível */
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -72,7 +72,7 @@
 .schedule-page .button {
   margin-top: 15px;
   font-size: 1rem;
-  background-color: #007bff; /* Cor secundária */
+  background-color: #007bff;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -104,7 +104,7 @@ footer p {
   }
 
   .schedule-page form {
-    width: 90%; /* Ajusta o formulário para ocupar 90% da largura da tela */
+    width: 90%;
     padding: 15px;
   }
 
@@ -112,17 +112,17 @@ footer p {
   .schedule-page input[type="date"],
   .schedule-page input[type="time"],
   .schedule-page select {
-    font-size: 0.9rem; /* Ajusta o tamanho da fonte */
-    padding: 8px; /* Diminui o padding */
+    font-size: 0.9rem;
+    padding: 8px;
   }
 
   .schedule-page button {
-    font-size: 1rem; /* Ajusta o tamanho da fonte do botão */
-    padding: 10px 15px; /* Diminui o padding */
+    font-size: 1rem;
+    padding: 10px 15px;
   }
 
   footer {
-    position: relative; /* Ajusta o footer para não ficar fixo */
+    position: relative;
   }
 }
 
@@ -133,7 +133,7 @@ footer p {
   }
 
   .schedule-page form {
-    width: 100%; /* Faz o formulário ocupar 100% da largura */
+    width: 100%;
     padding: 10px;
   }
 
@@ -141,12 +141,12 @@ footer p {
   .schedule-page input[type="date"],
   .schedule-page input[type="time"],
   .schedule-page select {
-    font-size: 0.8rem; /* Ajusta ainda mais o tamanho da fonte */
-    padding: 6px; /* Ajusta o padding */
+    font-size: 0.8rem;
+    padding: 6px;
   }
 
   .schedule-page button {
-    font-size: 1rem; /* Ajusta o tamanho da fonte do botão */
-    padding: 8px 12px; /* Ajusta o padding */
+    font-size: 1rem;
+    padding: 8px 12px;
   }
 }

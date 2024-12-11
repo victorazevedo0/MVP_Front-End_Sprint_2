@@ -1,6 +1,7 @@
 # Software para controle de PET SHOP com foco em Banho e Tosa.
 
-Esse projeto trás um mini ERP onde possa efetuar todo o controle de um pet shop, desde a entrada da mercadoria (insumos) até o agendamento de pet e cadastro de financeiro da Empresa. O projeto inicial apresentado, conta com tela de login, uma página home, contando somente com duas tela, Agendamento (SchedulePage.js) e Verificação de serviços agendados (ScheduledServicesPage.js). 
+Esse projeto é um software onde se pode efetuar o agendamento de serviços de banho e tosa de um pet shop.
+O projeto apresentado, conta com uma tela de login, uma página home que possui 3 botões, onde um é para sair do sistema e os outros 2, são para as telas, Agendamento (SchedulePage.js) e verificação de serviços agendados (ScheduledServicesPage.js).
 
 
 ## Estrutura do Projeto
@@ -20,7 +21,7 @@ src/
 ├── styles/  
 │   ├── (arquivos CSS)       # Estilos CSS para as páginas e componentes  
 ├── agendamentos.json        # Dados de agendamentos  
-├── usuarios.json        # Dados de usuarios  
+├── usuarios.json            # Dados de usuarios  
 
 
 ## Funcionalidades
@@ -66,8 +67,6 @@ $ npm start
 ```
 
 - Acesse no navegador: http://localhost:3000
-
-## ---------------------------------------------------------------------
 
 ## Tecnologias Utilizadas
 

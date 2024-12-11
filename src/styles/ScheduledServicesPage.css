@@ -2,13 +2,13 @@
 .scheduled-service-page {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Altura mínima da página: 100% da viewport */
-  position: relative; /* Necessário para o posicionamento do botão de voltar */
+  min-height: 100vh;
+  position: relative;
 }
 
 /* Conteúdo principal */
 .content {
-  flex: 1; /* Garante que o conteúdo ocupe o espaço disponível */
+  flex: 1;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 
 /* Estilos para os cartões de agendamento */
 .agendamento-card {
-  width: 300px; /* Largura fixada */
+  width: 300px;
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -80,7 +80,7 @@ footer {
   font-size: 0.9rem;
   color: #333;
   width: 100%;
-  margin-top: auto; /* Garante que o footer ficará no final da página */
+  margin-top: auto;
 }
 
 /* Media Query para telas menores (como celulares) */
@@ -92,7 +92,7 @@ footer {
 
   /* Cartões de agendamento */
   .agendamento-card {
-    width: 90%; /* Ajusta a largura para 90% da tela */
+    width: 90%;
     margin: 10px;
     padding: 15px;
   }
@@ -101,8 +101,8 @@ footer {
   .voltar-btn {
     padding: 8px 16px;
     font-size: 0.9rem;
-    position: static; /* Torna a posição do botão estática no layout */
-    margin-top: 20px; /* Garante que o botão fique abaixo do título */
+    position: static;
+    margin-top: 20px;
   }
 
   button {
@@ -111,7 +111,7 @@ footer {
   }
 
   footer {
-    font-size: 0.8rem; /* Diminui o tamanho da fonte no footer */
+    font-size: 0.8rem;
   }
 }
 
@@ -124,7 +124,7 @@ footer {
 
   /* Cartões de agendamento */
   .agendamento-card {
-    width: 100%; /* Faz o cartão ocupar toda a largura da tela */
+    width: 100%;
     margin: 10px 0;
     padding: 10px;
   }
@@ -133,8 +133,8 @@ footer {
   .voltar-btn {
     padding: 6px 12px;
     font-size: 0.8rem;
-    position: static; /* Torna a posição do botão estática no layout */
-    margin-top: 15px; /* Garante que o botão fique abaixo do título */
+    position: static;
+    margin-top: 15px;
   }
 
   button {
@@ -143,6 +143,6 @@ footer {
   }
 
   footer {
-    font-size: 0.7rem; /* Diminui ainda mais o tamanho da fonte no footer */
+    font-size: 0.7rem;
   }
 }
