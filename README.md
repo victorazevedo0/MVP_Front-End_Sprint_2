@@ -51,7 +51,7 @@ src/
 1. **Clonar o repositório**:
 
    
-   Clonar o repositorio: git clone https://github.com/victorazevedo0/petshop-scheduler.git
+   Clonar o repositorio: git clone https://github.com/victorazevedo0/MVP_Front-End_Sprint_2.git
 
 ## Instalar dependencias
 
